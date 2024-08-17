@@ -1,0 +1,128 @@
+/* default css start */
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --brand-color: #13C5DD;
+    --text-color: #848e9f;
+    --light-color: #ffffff;
+    --dark-color: #1D2A4D;
+}
+
+/* body{
+    max-width: 1499px;
+    min-width: 400px;
+} */
+.h{
+    height: 100%;
+}
+.w-25{
+    width: 25%;
+}
+.w-50{
+    width: 50%;
+}
+.w-75{
+    width: 75%;
+}
+.w-100{
+    width: 100%;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    content: " ";
+    margin: 5px;
+    padding: 5px 5px;
+    padding: right;
+    float: left;
+}
+ul li{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    content: " ";
+    margin: 5px;
+    padding: 5px 5px;
+}
+
+h1{ 
+    font-size: 55px;
+    font-weight: 600;
+    font-family: Roboto;
+    text-transform: capitalize;
+    padding: 50px 0px;
+}
+/* default css end */
+/* header css start */
+#header{
+    background: url(../img/logo.jpg) no-repeat;
+    background-size: cover;
+    height: 580px;
+    opacity: 0.7;
+}
+.header-content p{
+    color: var(--dark-color);
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Roboto;
+    text-transform: uppercase;
+    margin-top: 25px;
+
+    display: inline-block;
+    /* border-bottom: 4px solid var(--text-color); */
+}
+.header-content h1{
+    color: var(--light-color);
+    font-size: 75px;
+    font-weight: 600;
+    font-family: Roboto;
+    text-transform: capitalize;
+    padding: 70px 0px;
+}
+.header-btn{
+    text-align: center;
+}
+.header-btn a.active,
+.header-btn a:hover{
+    color: red;
+    background: red;
+}
+/* header css end */
+/* about css start */
+.about-poster img{
+    background-size: cover;
+    height: 380px;
+    width: 100%;
+    padding-left: 50px;
+    /* object-fit: cover; */
+}
+.about-content h2{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Roboto;
+    text-transform: uppercase;
+
+    display: inline-block;
+    border-bottom: 4px solid var(--text-color);
+}
+/* about css end */
+/* members css start */
+.members-content{
+    height: 350px;
+}
+.about-content p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Roboto;
+}
+.members-content img{
+    background-size: cover;
+    height: 200px;
+    width:  250px;
+    padding-left: 50px;
+}
+/* members css end */
